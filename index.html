@@ -169,13 +169,13 @@
                 
                 <img 
                     src="image_b9463e.jpg" 
-                    alt="Directeur Général Miguel Cillero" 
+                    alt="Directeur Général Miguel D Tillero A" 
                     class="absolute top-0 right-0 w-full h-full object-cover object-top mask-gradient opacity-90 grayscale-[10%] contrast-110"
                 >
                 <div class="absolute inset-0 border border-afgold/20 rounded-sm pointer-events-none transform scale-[0.98]"></div>
 
                 <div class="glass-panel p-6 lg:p-8 rounded-lg relative z-20 w-[90%] lg:w-[80%] ml-auto mb-8 lg:mb-12 border-l-4 border-l-afgold">
-                    <h3 class="font-cinzel text-xl text-white mb-1">Miguel Cillero</h3>
+                    <h3 class="font-cinzel text-xl text-white mb-1">Miguel D Tillero A</h3>
                     <p class="text-afgold font-cinzel text-xs tracking-widest uppercase mb-6">Directeur Général / Director General</p>
                     
                     <div class="space-y-3 text-sm font-light text-gray-300">
@@ -185,7 +185,7 @@
                         </div>
                         <div class="flex items-center gap-3">
                             <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                            <p>Ligne Directe / Contacto: <a href="https://wa.me/529671721870" target="_blank" class="hover:text-afgold transition-colors">+52 967 172 1870</a></p>
+                            <p>Ligne Directe / Contacto: <a href="https://wa.me/5219673424456" target="_blank" class="hover:text-afgold transition-colors">+52 1 967 342 44 56</a></p>
                         </div>
                         <div class="flex items-center gap-3 pt-4 border-t border-white/10 mt-4">
                             <span class="px-2 py-1 bg-white/10 rounded text-xs font-cinzel tracking-wider border border-white/10 text-white">Centre DELF / DALF Officiel</span>
@@ -222,7 +222,6 @@
             currentLang = lang;
 
             if (lang === 'fr') {
-                // Styling buttons
                 btnFr.classList.replace('text-gray-500', 'text-afgold');
                 btnFr.classList.add('border-b', 'border-afgold');
                 btnFr.classList.remove('hover:text-white');
@@ -231,7 +230,6 @@
                 btnEs.classList.remove('border-b', 'border-afgold');
                 btnEs.classList.add('hover:text-white');
 
-                // Crossfade content
                 contentEs.style.opacity = '0';
                 setTimeout(() => {
                     contentEs.classList.add('hidden');
@@ -244,7 +242,6 @@
                     setTimeout(() => { contentFr.style.opacity = '1'; }, 50);
                 }, 300);
 
-                // Update form text
                 btnSubmitText.textContent = "TRANSMETTRE LA REQUÊTE";
                 document.getElementById('name').placeholder = "Nom complet";
                 document.getElementById('email').placeholder = "Courriel";
@@ -253,7 +250,6 @@
                 document.getElementById('message').placeholder = "Votre Message";
 
             } else {
-                // Styling buttons
                 btnEs.classList.replace('text-gray-500', 'text-afgold');
                 btnEs.classList.add('border-b', 'border-afgold');
                 btnEs.classList.remove('hover:text-white');
@@ -262,7 +258,6 @@
                 btnFr.classList.remove('border-b', 'border-afgold');
                 btnFr.classList.add('hover:text-white');
 
-                // Crossfade content
                 contentFr.style.opacity = '0';
                 setTimeout(() => {
                     contentFr.classList.add('hidden');
@@ -275,7 +270,6 @@
                     setTimeout(() => { contentEs.style.opacity = '1'; }, 50);
                 }, 300);
 
-                // Update form text
                 btnSubmitText.textContent = "ENVIAR MENSAJE";
                 document.getElementById('name').placeholder = "Nombre completo";
                 document.getElementById('email').placeholder = "Correo electrónico";
